@@ -27,6 +27,7 @@ public class GamingAppLauncherApplication
     public static void main(String[] args) {
         var context = new AnnotationConfigApplicationContext(GamingAppLauncherApplication.class);
 
+        System.out.println("ciao mondo");
         context.getBean(GameRunner.class).run();
 
     }
